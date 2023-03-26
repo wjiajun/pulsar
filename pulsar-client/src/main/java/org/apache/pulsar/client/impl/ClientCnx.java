@@ -97,6 +97,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 @SuppressWarnings("unchecked")
+// 客户端入口
 public class ClientCnx extends PulsarHandler {
 
     protected final Authentication authentication;
